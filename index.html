@@ -70,7 +70,9 @@
             Effective Solutions<br />
             for Your Business
           </h1>
-          <button type="button" class="button primary">Order Service</button>
+          <button type="button" class="button primary" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -452,44 +454,44 @@
         <h2 class="section-title">Customers</h2>
         <ul class="partners list">
           <li class="item">
-            <a class="customers-link link" href="">
-              <svg class="customers-icon" width="104" height="56">
+            <a class="link" href="">
+              <svg class="icon" width="104" height="56">
                 <use href="./images/icons/icons.svg#icon-client-one"></use></svg
             ></a>
           </li>
           <li class="item">
-            <a class="customers-link link" href="">
-              <svg class="customers-icon" width="104" height="56">
+            <a class="link" href="">
+              <svg class="icon" width="104" height="56">
                 <use href="./images/icons/icons.svg#icon-client-two"></use></svg
             ></a>
           </li>
           <li class="item">
-            <a class="customers-link link" href="">
-              <svg class="customers-icon" width="104" height="56">
+            <a class="link" href="">
+              <svg class="icon" width="104" height="56">
                 <use
                   href="./images/icons/icons.svg#icon-client-three"
                 ></use></svg
             ></a>
           </li>
           <li class="item">
-            <a class="customers-link link" href="">
-              <svg class="customers-icon" width="104" height="56">
+            <a class="link" href="">
+              <svg class="icon" width="104" height="56">
                 <use
                   href="./images/icons/icons.svg#icon-client-four"
                 ></use></svg
             ></a>
           </li>
           <li class="item">
-            <a class="customers-link link" href="">
-              <svg class="customers-icon" width="104" height="56">
+            <a class="link" href="">
+              <svg class="icon" width="104" height="56">
                 <use
                   href="./images/icons/icons.svg#icon-client-five"
                 ></use></svg
             ></a>
           </li>
           <li class="item">
-            <a class="customers-link link" href="">
-              <svg class="customers-icon" width="104" height="56">
+            <a class="link" href="">
+              <svg class="icon" width="104" height="56">
                 <use href="./images/icons/icons.svg#icon-client-six"></use></svg
             ></a>
           </li>
@@ -573,5 +575,18 @@
         </div>
       </div>
     </footer>
+
+    <!-- Modal -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-close" type="button" data-modal-close>
+          <svg class="modal-close-icon" width="8" height="8">
+            <use href="./images/icons/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>

@@ -419,7 +419,6 @@ body {
 .socmed-link:focus,
 .socmed-link:active {
   background-color: var(--mintgreen);
-  border: 1px solid var(--mintgreen);
 }
 
 /* Icons - Customers */
@@ -533,7 +532,6 @@ body {
 .social-footer .link:focus,
 .social-footer .link:active {
   background-color: var(--mintgreen);
-  border: 1px solid var(--mintgreen);
 }
 
 .social-footer .socmed-icon {
@@ -601,7 +599,7 @@ body {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
-  transition: shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-card:hover {
@@ -629,7 +627,7 @@ body {
   font-size: 18px;
   color: var(--cloud);
   background-color: var(--iris);
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
